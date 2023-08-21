@@ -1,0 +1,30 @@
+{
+  "name": "say-hello",
+  "version": "1.0.0",
+  "description": "Trying out the example at https://docs.inworld.ai/docs/tutorial-integrations/node/quick-start/say-hello",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "tsc index.ts",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Inworld",
+    "Inworld.ai",
+    "LLM",
+    "Large",
+    "Language",
+    "Model",
+    "GPT",
+    "NPC"
+  ],
+  "author": "Marco Frisan <ender.saka@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@inworld/nodejs-sdk": "^1.4.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
